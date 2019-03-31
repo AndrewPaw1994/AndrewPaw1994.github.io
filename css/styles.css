@@ -101,3 +101,53 @@ background-size: 100%;
     background-image: url("../images/instagram.svg");
     background-size: 100%;
     }
+
+.content {
+      margin-top: 2150px;
+      width: 1100px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 90px;
+    }
+    
+.ssilki {
+      width: 520px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      font-size: 16px;
+
+    }
+  
+  .ssilki:nth-child(2n-1){
+      margin-right:60px;
+  }
+  .ssilki>p {
+   color: #979797;
+  }
+.text {
+  text-transform: capitalize;
+}
+
+footer {
+  padding-top:560px;
+  padding-bottom: 122px;
+  background: white;
+  
+}
+.copir {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+  .other {
+    width: 350px;
+    display:flex;
+    justify-content: space-between;
+    color: #979797;
+  }
