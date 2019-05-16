@@ -541,6 +541,12 @@ padding-bottom: 80px;
     height: 34px;
   }
 
+  .search__input:focus {
+    transition: 1s;
+    border: solid 1px rgba(151, 151, 151, 0.29);
+    width: 200px;
+  }
+  
   .basket-button {
     width: 20px;
     height: 19px;
