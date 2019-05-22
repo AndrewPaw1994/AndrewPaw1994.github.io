@@ -43,16 +43,17 @@ li {
   width: 1100px;
 }
 
-.block {
+.header__list {
   margin: 0;
   display: flex;
 
 }
 
-.one li:nth-child(1) {
+.header__item:nth-child(1) {
   margin-right: 70px;
 }
-.three li:nth-child(2) {
+
+.header__item:nth-child(2) {
   margin-left: 70px;
 }
 
@@ -84,7 +85,7 @@ a {
   text-decoration: none;
   color: #007fff;
 }
-.social {
+.socials {
   margin-top: 56px;
   display: flex;
   justify-content: center;
@@ -92,7 +93,7 @@ a {
   
 }
 
-.social a:first-child {
+.socials a:first-child {
 margin-right: 30px;
 height: 13.8px;
 width: 17px;
@@ -100,14 +101,14 @@ background-image: url("../images/shape.svg");
 background-size: 100%;
 }
 
-.social a:nth-child(2) {
+.socials a:nth-child(2) {
   height: 13px;
   width: 20.8px;
   background-image: url("../images/shape1.svg");
   background-size: 100%;
   }
 
-  .social a:last-child {
+  .socials a:last-child {
     margin-left: 30px;
     height: 16px;
     width: 16px;
@@ -161,7 +162,7 @@ background-size: 100%;
 }    
 
 
-    .content_item {
+    .content__list {
       height: 1232px;
       width: 1100px;
       margin: 120px auto 0 auto;
@@ -170,13 +171,13 @@ background-size: 100%;
       justify-content: space-between;
       align-content: space-between;
     }
-    .item{
+    .content__item{
      display:flex;
      flex-direction: column;
      justify-content: flex-end;
      align-items: flex-start;
     }
-    .item>h2{
+    .content__item>h2{
       margin-left:60px;
       margin-bottom: 63px;
       font-size: 28px;
@@ -184,7 +185,7 @@ background-size: 100%;
       line-height: 1.29;
       color: #ffffff;
     }
-    .item>button{
+    .content__item>button{
       border:0;
       margin-left:60px;
       margin-bottom: 17px;
@@ -197,35 +198,35 @@ background-size: 100%;
       font-weight: 900;
     }
 
-   .item:first-child {
+   .content__item:first-child {
      background-image: url(../images/motivation.png);
      background-size: 100%;
      width: 520px;
      height: 505px;
    }
 
-   .item:nth-child(2) {
+   .content__item:nth-child(2) {
     background-image: url(../images/benj.png);
     background-size: 100%;
     width: 520px;
     height: 667px;
     }
 
-    .item:nth-child(3) {
+    .content__item:nth-child(3) {
       background-image: url(../images/strength.png);
       background-size: 100%;
       width: 520px;
       height: 737px;
     }
 
-    .item:nth-child(4) {
+    .content__item:nth-child(4) {
       background-image: url(../images/prosperty.png);
       background-size: 100%;
       width: 520px;
       height: 435px;
     }
 
-    .point-list {
+    .article__list {
       width: 1100px;
       margin: 117px auto 0 auto;
       display: flex;
@@ -233,7 +234,7 @@ background-size: 100%;
       flex-wrap: wrap;
     }
 
-    .point {
+    .article__item {
       width: 500px;
       margin-right: 20px;
       margin-bottom: 60px;
@@ -246,7 +247,7 @@ background-size: 100%;
       letter-spacing: normal;
       color: #000000;
     }
-    .point>h3{
+    .article__item>h3{
       font-weight: normal;
       font-size: 28px;
       line-height: 1.07;
@@ -280,7 +281,7 @@ background-size: 100%;
       .shape{
         width: 44px;
       }
-.content {
+.product__list {
       margin-top: 120px;
       width: 1100px;
       margin-left: auto;
@@ -291,7 +292,7 @@ background-size: 100%;
     }
     
 
-.link {
+.product__item {
       width: 520px;
       display: flex;
       justify-content: space-between;
@@ -300,13 +301,13 @@ background-size: 100%;
 
     }
   
-  .link:nth-child(2n-1){
+  .product__item:nth-child(2n-1){
       margin-right:60px;
   }
-  .link>p {
+  .product__item>p {
    color: #979797;
   }
-.text {
+.product__link {
   text-transform: capitalize;
 }
 
@@ -316,7 +317,7 @@ footer {
   background: white;
   
 }
-.copir {
+.footer {
   margin-left: auto;
   margin-right: auto;
   width: 1100px;
@@ -324,13 +325,13 @@ footer {
   justify-content: space-between;
   font-size: 16px;
 }
-  .other {
+  .footer__documents {
     width: 350px;
     display:flex;
     justify-content: space-between;
   }
 
-  .other > a {
+  .footer__documents > a {
     text-transform: none;
     font-size: 16px;
     color: #979797;
@@ -350,12 +351,12 @@ footer {
   font-size: 28px;
   }
 
-.form>div {
+.form__wrapper {
   display: flex;
   margin-top: 60px;
 }
 
-.PS {
+.from__describtion {
   max-width: 230px;
   margin-right: 45px;
   line-height: 1.88;
@@ -364,11 +365,11 @@ footer {
   align-items: flex-start;
 }
 
-.PS li:last-child {
+.form-socials {
   margin-top: 30px;
 }
  
-.info {
+.user-info {
   width: 825px;
   display:flex;
   justify-content: space-between;
@@ -378,7 +379,7 @@ input{
  border: none;
  }
 
- .field>p:nth-child(2n){
+ .user-info__field>p:nth-child(2n){
  width: 730px;
  margin: 15px 0 30px 0;
  padding-bottom: 10px;
@@ -389,34 +390,32 @@ input{
  }
   
 
- textarea {
-  border:none;
-  min-height: 120px;
-  min-width: 730px;
-  max-width: 730px;
+ .user-info__message {
+  
   margin: 15px 0 0 0;
   border-bottom: 1px solid #cfcfcf
  }
 
- .field>p:nth-child(2n-1) {
+ .user-info__message textarea {
+ border:none;
+ min-height: 120px;
+ min-width: 730px;
+ max-width: 730px;
+ }
+
+ .user-info__field>label:nth-child(2n-1) {
    font-weight: 900;
    letter-spacing: 3px;
    font-size: 12px;
  }
 
- .info>li:last-child {
+ .user-info__send-button {
    width: 52px;
    height: 52px;
    background-color:#cfcfcf;
+   border: none;
    border-radius: 26px;
    display: flex;
    justify-content: center;
    align-items: center;
  }
- .send {
-  
-  width: 16px;
-  height: 16px;
-  background-image: url("../images/send.svg");
-  background-size: 100%;
-}
